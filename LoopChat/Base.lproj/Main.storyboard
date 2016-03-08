@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LCLoginVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="0ua-ip-831">
+                                <rect key="frame" x="0.0" y="20" width="600" height="284"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="20" width="400" height="335"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WD6-RS-MgF">
+                                <rect key="frame" x="140" y="445" width="321" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="321" id="LLh-kE-DfB"/>
+                                </constraints>
+                                <state key="normal" image="zhuce"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="LLh-kE-DfB"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="40" y="445" width="321" height="52"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="LLh-kE-DfB"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HJt-4v-YPP">
+                                <rect key="frame" x="137" y="523" width="326" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="326" id="3Yn-cP-Etj"/>
+                                </constraints>
+                                <state key="normal" image="denglu"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3Yn-cP-Etj"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="37" y="523" width="326" height="52"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="3Yn-cP-Etj"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.010476762820512797" green="0.010476762820512797" blue="0.010476762820512797" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="HJt-4v-YPP" firstAttribute="top" secondItem="WD6-RS-MgF" secondAttribute="bottom" constant="24" id="6zd-Zw-MNA"/>
+                            <constraint firstItem="0ua-ip-831" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="7ae-b3-MXB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HJt-4v-YPP" secondAttribute="bottom" constant="30" id="VH4-h6-o8m"/>
+                            <constraint firstItem="0ua-ip-831" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Z3N-Bm-EPS"/>
+                            <constraint firstItem="WD6-RS-MgF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="fcM-83-XBO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HJt-4v-YPP" secondAttribute="trailing" constant="14" id="hbx-xe-Q3Q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0ua-ip-831" secondAttribute="trailing" constant="-20" id="jdF-il-z4p"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WD6-RS-MgF" secondAttribute="trailing" constant="19" id="mRJ-mr-LJD"/>
+                            <constraint firstItem="WD6-RS-MgF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nHR-R5-wAq"/>
+                            <constraint firstItem="HJt-4v-YPP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="pGR-qO-Bzj"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7ae-b3-MXB"/>
+                                <exclude reference="Z3N-Bm-EPS"/>
+                                <exclude reference="jdF-il-z4p"/>
+                                <exclude reference="fcM-83-XBO"/>
+                                <exclude reference="mRJ-mr-LJD"/>
+                                <exclude reference="nHR-R5-wAq"/>
+                                <exclude reference="6zd-Zw-MNA"/>
+                                <exclude reference="hbx-xe-Q3Q"/>
+                                <exclude reference="pGR-qO-Bzj"/>
+                                <exclude reference="VH4-h6-o8m"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="7ae-b3-MXB"/>
+                                <include reference="Z3N-Bm-EPS"/>
+                                <include reference="jdF-il-z4p"/>
+                                <include reference="fcM-83-XBO"/>
+                                <include reference="mRJ-mr-LJD"/>
+                                <include reference="nHR-R5-wAq"/>
+                                <include reference="6zd-Zw-MNA"/>
+                                <include reference="hbx-xe-Q3Q"/>
+                                <include reference="pGR-qO-Bzj"/>
+                                <include reference="VH4-h6-o8m"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-183" y="198"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="denglu" width="326" height="52"/>
+        <image name="logo" width="424" height="335"/>
+        <image name="zhuce" width="321" height="52"/>
+    </resources>
+</document>

@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460486571C8D542300E95EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 460486561C8D542300E95EDC /* main.m */; };
+		4604865A1C8D542300E95EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 460486591C8D542300E95EDC /* AppDelegate.m */; };
+		4604865D1C8D542300E95EDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604865C1C8D542300E95EDC /* ViewController.m */; };
+		460486601C8D542300E95EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4604865E1C8D542300E95EDC /* Main.storyboard */; };
+		460486621C8D542300E95EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460486611C8D542300E95EDC /* Assets.xcassets */; };
+		460486651C8D542300E95EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460486631C8D542300E95EDC /* LaunchScreen.storyboard */; };
+		460486701C8D542300E95EDC /* LoopChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604866F1C8D542300E95EDC /* LoopChatTests.m */; };
+		4604867B1C8D542300E95EDC /* LoopChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604867A1C8D542300E95EDC /* LoopChatUITests.m */; };
+		460486FC1C8D54E800E95EDC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460486FB1C8D54E800E95EDC /* MobileCoreServices.framework */; };
+		460486FE1C8D54ED00E95EDC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460486FD1C8D54ED00E95EDC /* CFNetwork.framework */; };
+		460487001C8D54FD00E95EDC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 460486FF1C8D54FD00E95EDC /* libsqlite3.tbd */; };
+		460487021C8D550300E95EDC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 460487011C8D550300E95EDC /* libz.tbd */; };
+		460487041C8D550A00E95EDC /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 460487031C8D550A00E95EDC /* libiconv.tbd */; };
+		460487061C8D551100E95EDC /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 460487051C8D551100E95EDC /* libresolv.tbd */; };
+		460487081C8D551800E95EDC /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 460487071C8D551800E95EDC /* libxml2.tbd */; };
+		4604870C1C8D565200E95EDC /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4604870B1C8D565200E95EDC /* libstdc++.tbd */; };
+		4604870D1C8D566100E95EDC /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 460487091C8D563C00E95EDC /* libstdc++.6.0.9.tbd */; };
+		460487111C8D57FC00E95EDC /* LCLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 460487101C8D57FC00E95EDC /* LCLoginVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4604866C1C8D542300E95EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604864A1C8D542300E95EDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460486511C8D542300E95EDC;
+			remoteInfo = LoopChat;
+		};
+		460486771C8D542300E95EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604864A1C8D542300E95EDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460486511C8D542300E95EDC;
+			remoteInfo = LoopChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		460486521C8D542300E95EDC /* LoopChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		460486561C8D542300E95EDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		460486581C8D542300E95EDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		460486591C8D542300E95EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4604865B1C8D542300E95EDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4604865C1C8D542300E95EDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4604865F1C8D542300E95EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		460486611C8D542300E95EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		460486641C8D542300E95EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		460486661C8D542300E95EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4604866B1C8D542300E95EDC /* LoopChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4604866F1C8D542300E95EDC /* LoopChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoopChatTests.m; sourceTree = "<group>"; };
+		460486711C8D542300E95EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460486761C8D542300E95EDC /* LoopChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4604867A1C8D542300E95EDC /* LoopChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoopChatUITests.m; sourceTree = "<group>"; };
+		4604867C1C8D542300E95EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460486FB1C8D54E800E95EDC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		460486FD1C8D54ED00E95EDC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		460486FF1C8D54FD00E95EDC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		460487011C8D550300E95EDC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		460487031C8D550A00E95EDC /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		460487051C8D551100E95EDC /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		460487071C8D551800E95EDC /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		460487091C8D563C00E95EDC /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		4604870B1C8D565200E95EDC /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		4604870F1C8D57FC00E95EDC /* LCLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LCLoginVC.h; path = LCLoginVC/LCLoginVC.h; sourceTree = "<group>"; };
+		460487101C8D57FC00E95EDC /* LCLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LCLoginVC.m; path = LCLoginVC/LCLoginVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4604864F1C8D542300E95EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4604870D1C8D566100E95EDC /* libstdc++.6.0.9.tbd in Frameworks */,
+				4604870C1C8D565200E95EDC /* libstdc++.tbd in Frameworks */,
+				460487081C8D551800E95EDC /* libxml2.tbd in Frameworks */,
+				460487061C8D551100E95EDC /* libresolv.tbd in Frameworks */,
+				460487041C8D550A00E95EDC /* libiconv.tbd in Frameworks */,
+				460487021C8D550300E95EDC /* libz.tbd in Frameworks */,
+				460487001C8D54FD00E95EDC /* libsqlite3.tbd in Frameworks */,
+				460486FE1C8D54ED00E95EDC /* CFNetwork.framework in Frameworks */,
+				460486FC1C8D54E800E95EDC /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460486681C8D542300E95EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460486731C8D542300E95EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460486491C8D542300E95EDC = {
+			isa = PBXGroup;
+			children = (
+				460486541C8D542300E95EDC /* LoopChat */,
+				4604866E1C8D542300E95EDC /* LoopChatTests */,
+				460486791C8D542300E95EDC /* LoopChatUITests */,
+				460486531C8D542300E95EDC /* Products */,
+				460486881C8D548300E95EDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		460486531C8D542300E95EDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460486521C8D542300E95EDC /* LoopChat.app */,
+				4604866B1C8D542300E95EDC /* LoopChatTests.xctest */,
+				460486761C8D542300E95EDC /* LoopChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460486541C8D542300E95EDC /* LoopChat */ = {
+			isa = PBXGroup;
+			children = (
+				460487121C8D580200E95EDC /* LCLogin */,
+				460486581C8D542300E95EDC /* AppDelegate.h */,
+				460486591C8D542300E95EDC /* AppDelegate.m */,
+				4604865B1C8D542300E95EDC /* ViewController.h */,
+				4604865C1C8D542300E95EDC /* ViewController.m */,
+				4604865E1C8D542300E95EDC /* Main.storyboard */,
+				460486611C8D542300E95EDC /* Assets.xcassets */,
+				460486631C8D542300E95EDC /* LaunchScreen.storyboard */,
+				460486661C8D542300E95EDC /* Info.plist */,
+				460486551C8D542300E95EDC /* Supporting Files */,
+			);
+			path = LoopChat;
+			sourceTree = "<group>";
+		};
+		460486551C8D542300E95EDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				460486561C8D542300E95EDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4604866E1C8D542300E95EDC /* LoopChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				4604866F1C8D542300E95EDC /* LoopChatTests.m */,
+				460486711C8D542300E95EDC /* Info.plist */,
+			);
+			path = LoopChatTests;
+			sourceTree = "<group>";
+		};
+		460486791C8D542300E95EDC /* LoopChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4604867A1C8D542300E95EDC /* LoopChatUITests.m */,
+				4604867C1C8D542300E95EDC /* Info.plist */,
+			);
+			path = LoopChatUITests;
+			sourceTree = "<group>";
+		};
+		460486881C8D548300E95EDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4604870B1C8D565200E95EDC /* libstdc++.tbd */,
+				460487091C8D563C00E95EDC /* libstdc++.6.0.9.tbd */,
+				460487071C8D551800E95EDC /* libxml2.tbd */,
+				460487051C8D551100E95EDC /* libresolv.tbd */,
+				460487031C8D550A00E95EDC /* libiconv.tbd */,
+				460487011C8D550300E95EDC /* libz.tbd */,
+				460486FF1C8D54FD00E95EDC /* libsqlite3.tbd */,
+				460486FD1C8D54ED00E95EDC /* CFNetwork.framework */,
+				460486FB1C8D54E800E95EDC /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			path = LoopChat;
+			sourceTree = "<group>";
+		};
+		460487121C8D580200E95EDC /* LCLogin */ = {
+			isa = PBXGroup;
+			children = (
+				4604870F1C8D57FC00E95EDC /* LCLoginVC.h */,
+				460487101C8D57FC00E95EDC /* LCLoginVC.m */,
+			);
+			name = LCLogin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		460486511C8D542300E95EDC /* LoopChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4604867F1C8D542300E95EDC /* Build configuration list for PBXNativeTarget "LoopChat" */;
+			buildPhases = (
+				4604864E1C8D542300E95EDC /* Sources */,
+				4604864F1C8D542300E95EDC /* Frameworks */,
+				460486501C8D542300E95EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoopChat;
+			productName = LoopChat;
+			productReference = 460486521C8D542300E95EDC /* LoopChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4604866A1C8D542300E95EDC /* LoopChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460486821C8D542300E95EDC /* Build configuration list for PBXNativeTarget "LoopChatTests" */;
+			buildPhases = (
+				460486671C8D542300E95EDC /* Sources */,
+				460486681C8D542300E95EDC /* Frameworks */,
+				460486691C8D542300E95EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4604866D1C8D542300E95EDC /* PBXTargetDependency */,
+			);
+			name = LoopChatTests;
+			productName = LoopChatTests;
+			productReference = 4604866B1C8D542300E95EDC /* LoopChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		460486751C8D542300E95EDC /* LoopChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460486851C8D542300E95EDC /* Build configuration list for PBXNativeTarget "LoopChatUITests" */;
+			buildPhases = (
+				460486721C8D542300E95EDC /* Sources */,
+				460486731C8D542300E95EDC /* Frameworks */,
+				460486741C8D542300E95EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460486781C8D542300E95EDC /* PBXTargetDependency */,
+			);
+			name = LoopChatUITests;
+			productName = LoopChatUITests;
+			productReference = 460486761C8D542300E95EDC /* LoopChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4604864A1C8D542300E95EDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LC;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LoopChat;
+				TargetAttributes = {
+					460486511C8D542300E95EDC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4604866A1C8D542300E95EDC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 460486511C8D542300E95EDC;
+					};
+					460486751C8D542300E95EDC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 460486511C8D542300E95EDC;
+					};
+				};
+			};
+			buildConfigurationList = 4604864D1C8D542300E95EDC /* Build configuration list for PBXProject "LoopChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 460486491C8D542300E95EDC;
+			productRefGroup = 460486531C8D542300E95EDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				460486511C8D542300E95EDC /* LoopChat */,
+				4604866A1C8D542300E95EDC /* LoopChatTests */,
+				460486751C8D542300E95EDC /* LoopChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460486501C8D542300E95EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460486651C8D542300E95EDC /* LaunchScreen.storyboard in Resources */,
+				460486621C8D542300E95EDC /* Assets.xcassets in Resources */,
+				460486601C8D542300E95EDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460486691C8D542300E95EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460486741C8D542300E95EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4604864E1C8D542300E95EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4604865D1C8D542300E95EDC /* ViewController.m in Sources */,
+				4604865A1C8D542300E95EDC /* AppDelegate.m in Sources */,
+				460486571C8D542300E95EDC /* main.m in Sources */,
+				460487111C8D57FC00E95EDC /* LCLoginVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460486671C8D542300E95EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460486701C8D542300E95EDC /* LoopChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460486721C8D542300E95EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4604867B1C8D542300E95EDC /* LoopChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4604866D1C8D542300E95EDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460486511C8D542300E95EDC /* LoopChat */;
+			targetProxy = 4604866C1C8D542300E95EDC /* PBXContainerItemProxy */;
+		};
+		460486781C8D542300E95EDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460486511C8D542300E95EDC /* LoopChat */;
+			targetProxy = 460486771C8D542300E95EDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4604865E1C8D542300E95EDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4604865F1C8D542300E95EDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		460486631C8D542300E95EDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460486641C8D542300E95EDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4604867D1C8D542300E95EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4604867E1C8D542300E95EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460486801C8D542300E95EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoopChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LoopChat/EaseMobSDK/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/LoopChat/EaseMobSDK/lib/libEaseMobClientSDK.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LoopChat.LoopChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		460486811C8D542300E95EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoopChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LoopChat/EaseMobSDK/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/LoopChat/EaseMobSDK/lib/libEaseMobClientSDK.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LoopChat.LoopChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		460486831C8D542300E95EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoopChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LoopChat.LoopChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoopChat.app/LoopChat";
+			};
+			name = Debug;
+		};
+		460486841C8D542300E95EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoopChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LoopChat.LoopChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoopChat.app/LoopChat";
+			};
+			name = Release;
+		};
+		460486861C8D542300E95EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoopChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LoopChat.LoopChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoopChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		460486871C8D542300E95EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoopChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LoopChat.LoopChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoopChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4604864D1C8D542300E95EDC /* Build configuration list for PBXProject "LoopChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4604867D1C8D542300E95EDC /* Debug */,
+				4604867E1C8D542300E95EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4604867F1C8D542300E95EDC /* Build configuration list for PBXNativeTarget "LoopChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460486801C8D542300E95EDC /* Debug */,
+				460486811C8D542300E95EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460486821C8D542300E95EDC /* Build configuration list for PBXNativeTarget "LoopChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460486831C8D542300E95EDC /* Debug */,
+				460486841C8D542300E95EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460486851C8D542300E95EDC /* Build configuration list for PBXNativeTarget "LoopChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460486861C8D542300E95EDC /* Debug */,
+				460486871C8D542300E95EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4604864A1C8D542300E95EDC /* Project object */;
+}
