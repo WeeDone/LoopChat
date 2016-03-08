@@ -477,10 +477,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/LoopChat/EaseMobSDK/lib",
 				);
-				OTHER_LDFLAGS = (
-					"-force_load",
-					"\"$(SRCROOT)/LoopChat/EaseMobSDK/lib/libEaseMobClientSDK.a\"",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LoopChat.LoopChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -496,10 +493,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/LoopChat/EaseMobSDK/lib",
 				);
-				OTHER_LDFLAGS = (
-					"-force_load",
-					"\"$(SRCROOT)/LoopChat/EaseMobSDK/lib/libEaseMobClientSDK.a\"",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LoopChat.LoopChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
